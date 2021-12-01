@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Portfolio</title>
+    <title>Marcos Melo | Portfolio</title>
 </head>
 <body>
     <header class="header-wrapper">
@@ -36,20 +37,22 @@
                 </div>
             </div>
         </div>
-        <h1>Marcos Melo</h1>
-        <h2>Front-end Developer</h2>
-        <div class="social-media">
-            <a href="#">LinkedIn</a>
-            <a href="#">Github</a>
+        <div class="title">
+            <h1>Marcos Melo</h1>
+            <h2>Front-end Developer</h2>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/marcosmeloti/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/MarcosMeloTI" target="_blank">Github</a>
+            </div>
         </div>
     </header>
     <main class="container">
         <div class="card-container">
-            <div class="card-text">
+            <div data-aos="fade-right" class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptatum aperiam. Maiores quia expedita perferendis, dolore ad voluptates! Obcaecati ut maiores quisquam consequatur eum temporibus ex quas voluptatum quam doloremque.
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam delectus fugiat beatae facilis nisi numquam sunt culpa quisquam architecto odit! Officiis, architecto placeat enim animi pariatur similique dignissimos fugiat molestiae.
             </div>
-            <div class="card">
+            <div data-aos="fade-left" class="card">
                 <div class="card-wrapper">
                     <h2>Github</h2>
                     <p>Veja meus projetos!</p>
@@ -57,20 +60,26 @@
             </div>
         </div>
         <div class="card-container">
-            <div class="card">
+            <div data-aos="fade-right" class="card">
                 <div class="card-wrapper">
                     <h2>LinkedIn</h2>
                     <p>Acompanhe minha carreira!</p>
                 </div>
             </div>
-            <div class="card-text">
+            <div data-aos="fade-left" class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptatum aperiam. Maiores quia expedita perferendis, dolore ad voluptates! Obcaecati ut maiores quisquam consequatur eum temporibus ex quas voluptatum quam doloremque.
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam delectus fugiat beatae facilis nisi numquam sunt culpa quisquam architecto odit! Officiis, architecto placeat enim animi pariatur similique dignissimos fugiat molestiae.
             </div>
         </div>
     </main>
+
     <footer class="footer">
         feito por Marcos Melo!
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

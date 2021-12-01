@@ -22,14 +22,31 @@ body {
     animation: backgroundTransition 8s ease-in-out infinite;
 }
 
+.title {
+    padding: 30px;
+    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.048);
+    box-shadow: 0 8px 32px 0 #893168;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
 h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .social-media {
@@ -157,6 +174,10 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 40px;
+}
+
+.menu-items ul li a:hover {
+    color: #893168;
 }
 
 /* ANIMAÇÃO DO MENU */
