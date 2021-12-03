@@ -5,6 +5,9 @@ body {
     padding: 0;
     color: #ffffff;
     font-family: 'shadows into light', sans-serif;
+    background-color: #0000006b;
+    background-image: url('./const.png');
+    background-repeat: no-repeat;
 }
 
 /* HEADER */
@@ -39,6 +42,9 @@ h1 {
     align-items: center;
     justify-content: center;
     display: flex;
+    background: -webkit-linear-gradient(#ffffff, #893168);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -255,7 +261,15 @@ a:hover {
     width: 40%;
     font-family: sans-serif;
     letter-spacing: 1px;
-    color: rgb(109, 109, 109);
+    color: rgb(46, 46, 46);
+
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.247);
+    box-shadow: 0 8px 32px 0 #ffffff;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .card-wrapper {
