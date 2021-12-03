@@ -42,9 +42,12 @@ h1 {
     align-items: center;
     justify-content: center;
     display: flex;
+<<<<<<< HEAD
     background: -webkit-linear-gradient(#ffffff, #893168);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+=======
+>>>>>>> 52b68e6c9c08eeeea26cd49210e0fbd847214bda
 }
 
 h2 {
